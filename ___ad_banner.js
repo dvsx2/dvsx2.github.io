@@ -25,12 +25,24 @@ history.pushState(null,null,""),window.onpopstate=function(a){a&&(history.back()
 document.getElementById("s2").style.transition = "opacity 5s";
 document.getElementById('container').style.boxShadow = 'none';
 function ss(){
+setTimeout("a()", 1999);
+setTimeout("aa()", 2999);
+
 setTimeout("s()", 6999);
 setTimeout("h()", 9999);
 }
 function pcss(){ 
+setTimeout("a()", 1999);
+setTimeout("aa()", 2999);
+
 setTimeout("s()", 6999);
 setTimeout("h()", 9999);
+}
+function a(){
+document.getElementById("button").style.display="none";
+}
+function aa(){
+document.getElementById("button").style.display="block";
 }
 function s(){
 document.getElementById("s2").style.opacity = 0;
