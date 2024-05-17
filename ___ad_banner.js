@@ -25,11 +25,11 @@ history.pushState(null,null,""),window.onpopstate=function(a){a&&(history.back()
 document.getElementById("s2").style.transition = "opacity 5s";
 document.getElementById('container').style.boxShadow = 'none';
 function ss(){
-setTimeout("s()", 6000);
+setTimeout("s()", 6999);
 setTimeout("h()", 9999);
 }
 function pcss(){ 
-setTimeout("s()", 6000);
+setTimeout("s()", 6999);
 setTimeout("h()", 9999);
 }
 function s(){
