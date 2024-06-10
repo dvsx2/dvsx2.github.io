@@ -15,6 +15,10 @@ function aa(){
 document.getElementById("button").style.display="block";
 }
 function s(){
+var allElements = document.querySelectorAll("*");
+for (var i = 0; i < allElements.length; i++) {
+    allElements[i].style.color = "black";
+}
 document.getElementById("s2").style.opacity = 0;
 document.getElementById("button").style.display="none";
 document.getElementById("sha").style.display="none";
